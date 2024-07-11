@@ -1,0 +1,102 @@
+:root{
+    --primary-color: #3a68b7;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form{
+    background-color: white;
+    padding-top: 6em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 3em;
+    width: 50%;
+    border-left: 1em solid #2c4b81;
+}
+
+input{
+    border: none;
+    border-bottom: 0.1em solid var(--primary-color);
+    width: 100%;
+    font-size: 2em;
+    outline: 0;
+}
+
+input:focus:focus{
+    padding: 0.5em;
+    border: 0.1em solid var(--primary-color);
+}
+
+label{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.inputTextSize{
+    font-size: 1.25em;
+    font-weight: 300;
+    color: #505050;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.block{
+    display: block;
+}
+
+.flex{
+    display: flex;
+    margin-top: 3em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Title{
+    color: var(--primary-color);
+    font-weight: 300;
+    font-size: 5em;
+}
+
+.button{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.4em;
+    font-weight: 400;
+}
+
+.button2{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.smallLink{
+    font-size: 1.5em;
+}
